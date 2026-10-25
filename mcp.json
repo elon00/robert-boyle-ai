@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "robert-boyle-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "BOYLE",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "solve_boyle_isothermal_pressure",
+          "description": "Calculates final gas pressure during volume changes at constant temperature (P1 V1 = P2 V2)",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "initial_p_kpa": {
+                "type": "number"
+              },
+              "initial_v_liters": {
+                "type": "number"
+              },
+              "final_v_liters": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "initial_p_kpa",
+              "initial_v_liters",
+              "final_v_liters"
+            ]
+          }
+        },
+        {
+          "name": "quantify_corpuscular_density",
+          "description": "Estimates mean free molecular particle density in compressed gas containers",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "pressure_atm": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "pressure_atm"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
