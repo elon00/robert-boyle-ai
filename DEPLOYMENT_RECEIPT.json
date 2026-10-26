@@ -1,0 +1,14 @@
+{
+  "project": "robert-boyle-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "49Pmobo6VSgWZRfUF4DjEn3irtWwmZvaUWYymVs36Ye3",
+  "vault_account": "AyU4QKCuiiXtfMRvj9ZMWFwPa3gj2mtvqqSyXU2cmXMR",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3uRpbG7Yx6D5ttKdCdfQQgTu7V5qE5bEh8J9PdiM8qprvp34Dh4vva4jB8norfCrpGbPx8SyeUnTbobTxWNEpoxK",
+  "account_tx": "EhcdeYpb3SprrRDuVdEW26RoUbsF68EdLHksF8WJkR6d5BREC2SYgUj6Lc6XCmL1xY4o8LLpEUYHwj8mjfXkd64",
+  "mint_tx": "seDTarpti2eaQm6VLcuFeFzek9K3LicbAVJRp6Z7DHm4XZRkDotxQ9ovA8kFCQjPEvUcCvtC2qAhjXt7ow14Kk5",
+  "solana_explorer_mint": "https://explorer.solana.com/address/49Pmobo6VSgWZRfUF4DjEn3irtWwmZvaUWYymVs36Ye3?cluster=devnet",
+  "timestamp": "2026-10-26 16:55:46 UTC"
+}
